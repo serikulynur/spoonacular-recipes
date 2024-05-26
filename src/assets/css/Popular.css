@@ -1,0 +1,50 @@
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+
+.Wrapper {
+    padding: calc((20 / 16) * 1rem);
+    padding-top: 0;
+}
+
+h3 {
+    text-align: center;
+    color: var(--Dark-Charcoal);
+    font-family: 'Arial', sans-serif;
+    padding: calc((10 / 16) * 1rem) 0;
+}
+
+.Card {
+    background-color: var(--White);
+    border-radius: calc((12 / 16) * 1rem);
+    text-align: center;
+}
+
+.Card img {
+    width: 100%;
+    height: auto;
+    border-radius: calc((12 / 16) * 1rem);
+}
+
+.Card p {
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+    color: var(--Rose-White);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
